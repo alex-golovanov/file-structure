@@ -1,0 +1,6 @@
+export const ACTION_TYPE = {
+  ADD_TODO: "ADD_TODO",
+  DELETE_TODO: "DELETE_TODO",
+  TOGGLE_TODO: "TOGGLE_TODO",
+  SET_FILTER: "SET_FILTER",
+} as const;
